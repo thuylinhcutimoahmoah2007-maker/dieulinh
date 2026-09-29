@@ -1476,7 +1476,7 @@ function initParticleCanvas() {
 
             ctx.beginPath();
             ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-            ctx.fillStyle = `rgba(255, 255, 255, ${p.alpha})`;
+            ctx.fillStyle = `rgba(255, 182, 217, ${p.alpha})`;
             ctx.fill();
 
             // Connect nearby particles
@@ -1493,7 +1493,7 @@ function initParticleCanvas() {
                     ctx.beginPath();
                     ctx.moveTo(p.x, p.y);
                     ctx.lineTo(p2.x, p2.y);
-                    ctx.strokeStyle = `rgba(255, 255, 255, ${0.07 * (1 - dist / 105)})`;
+                    ctx.strokeStyle = `rgba(255, 182, 217, ${0.07 * (1 - dist / 105)})`;
                     ctx.lineWidth = 0.75;
                     ctx.stroke();
                 }
