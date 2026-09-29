@@ -67,8 +67,8 @@ const CONFIG = {
     // 4. MẠNG XÃ HỘI / LIÊN HỆ (DIRECT CONNECTIONS):
     // Mục có field "copy" sẽ KHÔNG mở link — click là sao chép giá trị đó + toast thông báo.
     socials: [
-        { name: "Facebook", icon: "fa-brands fa-facebook", url: "https://www.facebook.com/nlwos" },
-        { name: "Email", icon: "fa-solid fa-envelope", url: "", copy: "lucifermeta0210@gmail.com" },
+        { name: "Facebook", icon: "fa-brands fa-facebook", url: "https://www.facebook.com/dieu.linhiuu" },
+        { name: "Email", icon: "fa-solid fa-envelope", url: "", copy: "thuylinhcutimoahmoah2007@gmai.com" },
         { name: "TikTok", icon: "fa-brands fa-tiktok", url: "https://www.tiktok.com/@nlwo2" },
         { name: "Spotify", icon: "fa-brands fa-spotify", url: "https://open.spotify.com/user/31qttkds2lxweu7s5qxqrms2ab2i?si=d5a2f7b40b2e412f" },
         // Mục có action: "donate" KHÔNG mở link — bấm là hiện ảnh QR ở giữa màn hình.
