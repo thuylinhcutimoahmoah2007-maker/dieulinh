@@ -24,7 +24,7 @@ const CONFIG = {
         // Ảnh dự phòng local khi cdn.discordapp.com bị nhà mạng chặn
         avatarLocal: "avatar-me.webp",
         banner: "banner_executive.webp",
-        bio: "Just a normal guy who enjoys the simple things in life. Passionate about gaming, good music, and a perfect cup of coffee. Love traveling to new places, capturing moments, and binge-watching movies. Welcome to my little corner of the internet.",
+        bio: "Fragile and delicate, hoping to be pampered by a man.",
         location: "Hà Nội, Việt Nam",
         quotes: [
             "Gaming, coffee & good vibes.",
