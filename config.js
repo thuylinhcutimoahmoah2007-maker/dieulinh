@@ -96,9 +96,9 @@ const CONFIG = {
         volume: 1,
         playlist: [
             {
-                title: "Chàng Trai Bất Tử",
+                title: "Không Yêu Xin Đừng Nói",
                 artist: "Diệu Linh",
-                url: "chang-trai-bat-tu.mp3"
+                url: "khong-yeu-xin-dung-noi.mp3"
             },
             {
                 title: "Mưa Đợi Chờ",
