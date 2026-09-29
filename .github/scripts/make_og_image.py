@@ -30,11 +30,11 @@ WHITE = (255, 255, 255)
 GREY = (182, 182, 196)
 SOFT = (216, 216, 226)
 
-EYEBROW = "@Luong Kun"
-NAME = "Nguyễn Lương"
+EYEBROW = "@Dieu Linh"
+NAME = "Diệu Linh"
 HANDLE = "@chilanoidau"
 TAGLINE = "Gamer • Music Lover • Coffee Addict"
-DOMAIN = "luongkun.pages.dev"
+DOMAIN = "hoangkietbusiness.netlify.app"
 
 FONT_DIR = "/usr/share/fonts/noto"
 FONTS = {
@@ -142,13 +142,6 @@ def build(avatar_path: str) -> Image.Image:
     draw.rounded_rectangle(pill, radius=(pill[3] - pill[1]) // 2, fill=(22, 22, 28, 235),
                            outline=PINK + (150,), width=2)
     draw.text((pill[0] + pad_x, pill[1] + pad_y - 4), DOMAIN, font=pill_font, fill=WHITE)
-
-    # --- monogram NL, đúng bộ icon đang dùng cho favicon
-    badge = 112
-    mono = build_master().resize((badge, badge), Image.LANCZOS)
-    mx, my = W - badge - 72, 62
-    card.alpha_composite(radial((300, 300), PINK, 90, 60), (mx + badge // 2 - 150, my + badge // 2 - 150))
-    card.alpha_composite(mono, (mx, my))
 
     return card
 

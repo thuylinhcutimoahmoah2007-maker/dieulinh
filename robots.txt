@@ -6,4 +6,4 @@ Disallow: /that-tinh.mp3
 Disallow: /chang-trai-bat-tu.mp3
 Disallow: /qr-bank.png
 
-Sitemap: https://luongkun.pages.dev/sitemap.xml
+Sitemap: https://hoangkietbusiness.netlify.app/sitemap.xml
