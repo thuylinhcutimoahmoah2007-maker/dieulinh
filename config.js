@@ -106,9 +106,9 @@ const CONFIG = {
                 url: "bai1.mp3"
             },
             {
-                title: "Tháng 12 Anh Có",
+                title: "Trái Tim Em Cũng Biết Đau x Yêu Kiều",
                 artist: "Diệu Linh",
-                url: "thang12-anh-co.mp3"
+                url: "trai-tim-em-cung-biet-dau-x-yeu-kieu.mp3"
             },
             {
                 title: "Thất Tình",
