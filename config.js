@@ -117,9 +117,9 @@ const CONFIG = {
             }
         ],
         // Default / Initial Track Fallback
-        title: "Chàng Trai Bất Tử",
+        title: "Không Yêu Xin Đừng Nói",
         artist: "Diệu Linh",
-        url: "chang-trai-bat-tu.mp3"
+        url: "khong-yeu-xin-dung-noi.mp3"
     },
 
     // 6. HIỆU ỨNG:
