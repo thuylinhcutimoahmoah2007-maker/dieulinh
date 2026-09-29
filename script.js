@@ -1445,9 +1445,9 @@ function initParticleCanvas() {
             width: Math.random() * 1.5 + 2.2,
             alpha: 1.0,
             decay: Math.random() * 0.012 + 0.012,
-            glowHue: Math.random() > 0.4 ? 'rgba(168, 85, 247, 0.85)' : 'rgba(255, 255, 255, 0.95)',
+            glowHue: Math.random() > 0.4 ? 'rgba(255, 105, 180, 0.85)' : 'rgba(255, 182, 217, 0.95)',
             sparkTimer: 0
-        });
+        });tepa
 
         // Hẹn giờ sao băng tiếp theo xuất hiện ngẫu nhiên sau 4.5s đến 9.5s
         nextShootingStarTime = Date.now() + (Math.random() * 5000 + 4500);
