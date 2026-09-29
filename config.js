@@ -111,9 +111,9 @@ const CONFIG = {
                 url: "trai-tim-em-cung-biet-dau-x-yeu-kieu.mp3"
             },
             {
-                title: "Thất Tình",
+                title: "Ai Ngoài Anh",
                 artist: "Diệu Linh",
-                url: "that-tinh.mp3"
+                url: "ai-ngoai-anh.mp3"
             }
         ],
         // Default / Initial Track Fallback
