@@ -81,7 +81,7 @@ const CONFIG = {
         // Tên file ảnh QR, đặt cùng thư mục với index.html.
         // Khi chưa có file, hộp thoại hiện khung hướng dẫn thay vì ảnh vỡ.
         // Chỉ cần đặt ảnh vào repo với đúng tên này là QR tự hiện, không phải sửa code.
-        qrImage: "qr-bank.png",
+        qrImage: "qr-cua-linh.png",
         // Thông tin chuyển khoản — dòng nào để trống "" thì tự ẩn
         bankName: "",
         accountName: "",
