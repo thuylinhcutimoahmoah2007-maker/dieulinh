@@ -47,19 +47,19 @@ const CONFIG = {
         {
             // Tên, avatar, số thành viên & số online sẽ được cập nhật real-time từ Discord
             // (script.js gọi api discord.com/api/v9/invites/{code}?with_counts=true)
-            name: "Starlight Brigade",
-            role: "Cộng đồng Starlight Brigade",
-            description: "Máy chủ Discord Starlight Brigade — nơi giao lưu, chơi game và kết nối cùng mọi người.",
+            name: "1 mình em",
+            role: "Cộng đồng 1 mình em",
+            description: "Vào đây để được em thương moah moah.",
             // Invite vĩnh viễn (không có expires_at) — kiểm tra bằng API invites/{code}?with_counts=true
-            inviteUrl: "https://discord.gg/Mf2EHfNbMW",
+            inviteUrl: "https://discord.gg/hB4jVUtxs",
             icon: "https://cdn.discordapp.com/icons/1267096791443312734/cd3ef9fd53d343c4c735e0640a6fb9c9.png?size=256",
             // Server này chưa có banner riêng nên dùng ảnh local làm ảnh nền dự phòng
             banner: "profile_banner_cyber.webp",
             cdnIcon: "https://cdn.discordapp.com/icons/1267096791443312734/cd3ef9fd53d343c4c735e0640a6fb9c9.png?size=256",
             cdnBanner: "profile_banner_cyber.webp",
-            members: "47 Members",
-            online: "19 Online",
-            tag: "COMMUNITY",
+            members: "1 Members",
+            online: "1 Online",
+            tag: "Nứng",
             featured: true
         }
     ],
