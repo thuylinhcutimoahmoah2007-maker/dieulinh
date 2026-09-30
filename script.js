@@ -1962,11 +1962,11 @@ function initGreeting() {
 
     function computeGreeting() {
         const hour = new Date().getHours();
-        if (hour >= 5 && hour < 11) return `Chào buổi sáng ☀️`;
-        if (hour >= 11 && hour < 13) return `Chào buổi trưa 🌤️`;
-        if (hour >= 13 && hour < 18) return `Chào buổi chiều 🌇`;
-        if (hour >= 18 && hour < 22) return `Chào buổi tối 🌙`;
-        return `Khuya rồi, ngủ ngon nhé 💤`;
+        if (hour >= 5 && hour < 11) return `Sáng rồi dạy bắn valo với em ☀️`;
+        if (hour >= 11 && hour < 13) return `Trưa rồi bắn tiếp với bé 🌤️`;
+        if (hour >= 13 && hour < 18) return `Chiều rồi muốn được moah moah 🌇`;
+        if (hour >= 18 && hour < 22) return `Tối òi bắn vài trận với bé nhé 🌙`;
+        return `Khuya rồi, ngủ ngoann nhé a moah moah 💤`;
     }
 
     // Animate typing a full string character by character
