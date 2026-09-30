@@ -48,7 +48,7 @@ const CONFIG = {
             // Tên, avatar, số thành viên & số online sẽ được cập nhật real-time từ Discord
             // (script.js gọi api discord.com/api/v9/invites/{code}?with_counts=true)
             name: "1 mình em",
-            role: "Cộng đồng 1 mình em",
+            role: "Chỉ có mình em thôi><",
             description: "Vào đây để được em thương moah moah.",
             // Invite vĩnh viễn (không có expires_at) — kiểm tra bằng API invites/{code}?with_counts=true
             inviteUrl: "https://discord.gg/hB4jVUtxs",
