@@ -8,7 +8,7 @@ const CACHE = 'luongkun-shell-v3';
 // Cloudflare Pages chuyển hướng 308 cho '/index.html' và '/404.html', mà
 // cache.addAll thất bại nếu gặp phản hồi không phải 200 -> service worker
 // sẽ không cài được. Vì vậy dùng './' và KHÔNG liệt kê file HTML nào.
-const SHELL = ['./', './avatar-me.webp', './avatar-partner.webp', './deco-me.webp', './icon-192.png', './icon-512.png'];
+const SHELL = ['./', './avatar-linh.png', './avatar-partner.webp', './deco-me.webp', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {
     e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
