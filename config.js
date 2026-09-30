@@ -59,7 +59,7 @@ const CONFIG = {
             cdnBanner: "profile_banner_cyber.webp",
             members: "1 Members",
             online: "1 Online",
-            tag: "Nứng",
+            tag: "Yêu",
             featured: true
         }
     ],
