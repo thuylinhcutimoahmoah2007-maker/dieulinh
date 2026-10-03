@@ -7,7 +7,7 @@
 
 const CONFIG = {
     // 0. TÊN WEB (hiện ở tiêu đề tab, gõ chữ xoá chữ lặp lại trong script.js).
-    siteName: "@Dieu Linh",
+    siteName: "✿ Diệu Linh ♡",
 
     // 1. DISCORD USER ID:
     discordId: "1071450431395483658",
