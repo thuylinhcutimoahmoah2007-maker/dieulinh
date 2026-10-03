@@ -2488,12 +2488,12 @@ body::before {
   z-index: 0;
   pointer-events: none;
   background:
-    radial-gradient(ellipse 380px 110px at 10% 20%, rgba(255,255,255,0.7), transparent 70%),
-    radial-gradient(ellipse 460px 130px at 60% 10%, rgba(255,255,255,0.65), transparent 70%),
-    radial-gradient(ellipse 420px 120px at 35% 90%, rgba(255,255,255,0.6), transparent 70%);
+radial-gradient(ellipse 480px 140px at 10% 20%, rgba(255,255,255,1), transparent 70%),
+radial-gradient(ellipse 560px 160px at 60% 10%, rgba(255,255,255,0.95), transparent 70%),
+radial-gradient(ellipse 520px 150px at 35% 90%, rgba(255,255,255,0.9), transparent 70%);
   background-repeat: repeat-x;
   background-size: 1400px 100%;
-  animation: cloudDrift 80s linear infinite;
+  animation: cloudDrift 30s linear infinite;
 }
 
 @keyframes cloudDrift {
@@ -2508,12 +2508,12 @@ body::after {
   z-index: 0;
   pointer-events: none;
   background-image:
-    radial-gradient(circle 2px at 12% 25%, #fff, transparent),
-    radial-gradient(circle 3px at 30% 60%, #fff, transparent),
-    radial-gradient(circle 2px at 55% 15%, #fff, transparent),
-    radial-gradient(circle 3px at 78% 45%, #fff, transparent),
-    radial-gradient(circle 2px at 90% 80%, #fff, transparent),
-    radial-gradient(circle 2px at 20% 85%, #fff, transparent);
+    radial-gradient(circle 4px at 12% 25%, #fff, transparent),
+    radial-gradient(circle 6px at 30% 60%, #fff, transparent),
+    radial-gradient(circle 4px at 55% 15%, #fff, transparent),
+    radial-gradient(circle 6px at 78% 45%, #fff, transparent),
+    radial-gradient(circle 4px at 90% 80%, #fff, transparent),
+    radial-gradient(circle 4px at 20% 85%, #fff, transparent);
   animation: twinkle 3.5s ease-in-out infinite alternate;
 }
 
