@@ -2068,3 +2068,13 @@ function playBeepSound(freq = 520, duration = 0.08) {
         // Silent catch for audio context restrictions
     }
 }
+  document.addEventListener('click', (e) => {
+      const icons = ['💗', '🌸', '✨', '🎀'];
+      const el = document.createElement('span');
+      el.className = 'click-heart';
+      el.textContent = icons[Math.floor(Math.random() * icons.length)];
+      el.style.left = e.clientX + 'px';
+      el.style.top = e.clientY + 'px';
+      document.body.appendChild(el);
+      setTimeout(() => el.remove(), 900);
+  });
