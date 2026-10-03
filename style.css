@@ -56,10 +56,10 @@ html, body {
 
 body {
    background:
-    radial-gradient(ellipse 320px 90px at 18% 22%, rgba(255,255,255,0.6), transparent 70%),
-    radial-gradient(ellipse 400px 110px at 78% 16%, rgba(255,255,255,0.55), transparent 70%),
-    radial-gradient(ellipse 360px 100px at 62% 72%, rgba(255,255,255,0.5), transparent 70%),
-    radial-gradient(ellipse 300px 90px at 12% 80%, rgba(255,255,255,0.45), transparent 70%),
+radial-gradient(ellipse 520px 150px at 18% 18%, rgba(255,255,255,0.95), transparent 70%),
+radial-gradient(ellipse 620px 170px at 80% 12%, rgba(255,255,255,0.9), transparent 70%),
+radial-gradient(ellipse 560px 150px at 70% 90%, rgba(255,255,255,0.85), transparent 70%),
+radial-gradient(ellipse 480px 140px at 10% 88%, rgba(255,255,255,0.8), transparent 70%),
     linear-gradient(180deg, #ffa8cc 0%, #ffd0e3 50%, #fff0f6 100%);
     color: var(--text-primary);
     font-family: var(--font-main);
