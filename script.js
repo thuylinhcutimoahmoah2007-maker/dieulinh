@@ -1476,7 +1476,7 @@ function initParticleCanvas() {
 
             ctx.beginPath();
             ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-            ctx.fillStyle = `rgba(255, 255, 255, ${p.alpha})`;
+            ctx.fillStyle = `rgba(255, 79, 163, ${p.alpha})`;
             ctx.fill();
 
             // Connect nearby particles
