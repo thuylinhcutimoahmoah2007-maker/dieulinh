@@ -60,7 +60,7 @@ radial-gradient(ellipse 520px 150px at 18% 18%, rgba(255,255,255,0.95), transpar
 radial-gradient(ellipse 620px 170px at 80% 12%, rgba(255,255,255,0.9), transparent 70%),
 radial-gradient(ellipse 560px 150px at 70% 90%, rgba(255,255,255,0.85), transparent 70%),
 radial-gradient(ellipse 480px 140px at 10% 88%, rgba(255,255,255,0.8), transparent 70%),
-    linear-gradient(180deg, #ffa8cc 0%, #ffd0e3 50%, #fff0f6 100%);
+   linear-gradient(180deg, #ffa8cc 0%, #ffc2dc 50%, #ffb0d0 100%);
     color: var(--text-primary);
     font-family: var(--font-main);
     display: flex;
