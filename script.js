@@ -1474,10 +1474,20 @@ function initParticleCanvas() {
             if (p.y < 0) p.y = height;
             if (p.y > height) p.y = 0;
 
-            ctx.beginPath();
-            ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-            ctx.fillStyle = `rgba(255, 79, 163, ${p.alpha})`;
-            ctx.fill();
+if (p.angle === undefined) p.angle = Math.random() * Math.PI * 2;
+p.angle += 0.008;
+const leafLen = p.radius * 2.6;
+const leafWid = p.radius * 2.2;
+ctx.save();
+ctx.translate(p.x, p.y);
+ctx.rotate(p.angle);
+ctx.beginPath();
+ctx.moveTo(0, -leafLen);
+ctx.quadraticCurveTo(leafWid, 0, 0, leafLen);
+ctx.quadraticCurveTo(-leafWid, 0, 0, -leafLen);
+ctx.fillStyle = `rgba(255, 79, 163, ${p.alpha})`;
+ctx.fill();
+ctx.restore();
 
             // Connect nearby particles
             for (let j = i + 1; j < particles.length; j++) {
@@ -1493,7 +1503,7 @@ function initParticleCanvas() {
                     ctx.beginPath();
                     ctx.moveTo(p.x, p.y);
                     ctx.lineTo(p2.x, p2.y);
-                    ctx.strokeStyle = `rgba(255, 255, 255, ${0.07 * (1 - dist / 105)})`;
+                    ctx.strokeStyle = `rgba(255, 79, 163, ${0 * (1 - dist / 105)})`;
                     ctx.lineWidth = 0.75;
                     ctx.stroke();
                 }
