@@ -1403,16 +1403,16 @@ function initParticleCanvas() {
 
     // Ambient floating particles
     const particles = [];
-    const particleCount = Math.min(Math.floor((width * height) / 18000), 65);
+    const particleCount = Math.min(Math.floor((width * height) / 9000), 130);
 
     for (let i = 0; i < particleCount; i++) {
         particles.push({
             x: Math.random() * width,
             y: Math.random() * height,
-            radius: Math.random() * 1.5 + 0.5,
+            radius: Math.random() * 2 + 0.8,
             speedX: (Math.random() - 0.5) * 0.35,
             speedY: (Math.random() - 0.5) * 0.35,
-            alpha: Math.random() * 0.45 + 0.15
+            alpha: Math.random() * 0.6 + 0.3
         });
     }
 
