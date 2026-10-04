@@ -23,7 +23,7 @@ const CONFIG = {
         avatar: "https://cdn.discordapp.com/avatars/1222143238056574990/cd20117cf2a6a045b8dd4b62cc048320.png?size=256",
         // Ảnh dự phòng local khi cdn.discordapp.com bị nhà mạng chặn
         avatarLocal: "avatar-linh.png",
-        banner: "banner_executive.webp",
+        banner: "banner-hong.jpg",
         bio: "Fragile and delicate, hoping to be pampered by a man.",
         location: "Hà Nội, Việt Nam",
         quotes: [
