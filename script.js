@@ -1434,7 +1434,7 @@ function initParticleCanvas() {
         const startY = spawnFromTop ? -60 : Math.random() * (height * 0.45);
 
         // Chiều dài vệt đuôi sao băng phát sáng
-        const trailLength = Math.random() * 160 + 220;
+        const trailLength = Math.random() * 200 + 300;
 
         shootingStars.push({
             x: startX,
@@ -1442,7 +1442,7 @@ function initParticleCanvas() {
             vx: Math.cos(angle) * speed,
             vy: Math.sin(angle) * speed,
             length: trailLength,
-            width: Math.random() * 1.5 + 2.2,
+            width: Math.random() * 2 + 3.5,
             alpha: 1.0,
             decay: Math.random() * 0.012 + 0.012,
             glowHue: Math.random() > 0.4 ? 'rgba(168, 85, 247, 0.85)' : 'rgba(255, 255, 255, 0.95)',
@@ -1450,7 +1450,7 @@ function initParticleCanvas() {
         });
 
         // Hẹn giờ sao băng tiếp theo xuất hiện ngẫu nhiên sau 4.5s đến 9.5s
-        nextShootingStarTime = Date.now() + (Math.random() * 5000 + 4500);
+        nextShootingStarTime = Date.now() + (Math.random() * 1500 + 1500);
     }
 
     // Nhấn phím 'S' để gọi sao băng tức thì nếu muốn thử
