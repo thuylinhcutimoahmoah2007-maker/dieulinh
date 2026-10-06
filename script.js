@@ -2079,7 +2079,7 @@ function playBeepSound(freq = 520, duration = 0.08) {
       setTimeout(() => el.remove(), 900);
   });
   (function () {
-      for (let i = 0; i < 12; i++) {
+      for (let i = 0; i < 6; i++) {
           const b = document.createElement('div');
           b.className = 'bokeh';
           const size = 50 + Math.random() * 130;
