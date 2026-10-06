@@ -2078,3 +2078,17 @@ function playBeepSound(freq = 520, duration = 0.08) {
       document.body.appendChild(el);
       setTimeout(() => el.remove(), 900);
   });
+  (function () {
+      for (let i = 0; i < 12; i++) {
+          const b = document.createElement('div');
+          b.className = 'bokeh';
+          const size = 50 + Math.random() * 130;
+          b.style.width = size + 'px';
+          b.style.height = size + 'px';
+          b.style.left = Math.random() * 100 + 'vw';
+          b.style.top = Math.random() * 100 + 'vh';
+          b.style.animationDuration = (7 + Math.random() * 8) + 's';
+          b.style.animationDelay = (-Math.random() * 10) + 's';
+          document.body.appendChild(b);
+      }
+  })();
