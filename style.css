@@ -2577,3 +2577,34 @@ html::after {
     from { transform: translate(0, 0) scale(1); opacity: 0.35; }
     to   { transform: translate(40px, -60px) scale(1.25); opacity: 0.8; }
   }
+/* 1. Đổi màu khung Profile chính (phần bên trong) sang màu hồng nhạt dịu cute */
+.profile-card,
+.card-container,
+.main-card {
+    background: rgba(255, 228, 236, 0.85) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 182, 193, 0.6) !important;
+}
+
+/* 2. Đổi các ô chức năng bên trong (About me, Status, Servers, Vibes...) sang tone hồng pastel */
+.status-card,
+.about-card,
+.server-card,
+.vibe-card,
+.info-box,
+.bg-secondary\/30,
+.bg-secondary\/50 {
+    background-color: rgba(255, 240, 245, 0.6) !important;
+    border: 1px solid rgba(255, 192, 203, 0.4) !important;
+}
+
+/* 3. Đổi thanh phát nhạc góc dưới bên phải sang màu hồng cute */
+.music-player-container,
+.music-player,
+#music-player,
+div[class*="music"],
+div[class*="player"] {
+    background: rgba(255, 218, 228, 0.95) !important;
+    border: 1px solid #ffb6c1 !important;
+    box-shadow: 0 4px 15px rgba(255, 182, 193, 0.4) !important;
+}
