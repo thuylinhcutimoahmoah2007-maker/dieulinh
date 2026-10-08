@@ -2712,3 +2712,18 @@ div[class*="player"] * {
 .card-banner::after {
   display: none !important;
 }
+/* ===== Huy hiệu DISCORD • ONLINE hồng nhạt ===== */
+.banner-badge-top {
+  background: rgba(255, 214, 232, 0.9) !important;
+  border: 1px solid rgba(255, 150, 190, 0.55) !important;
+  box-shadow: 0 4px 14px rgba(255, 120, 170, 0.3) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+.banner-badge-top,
+.banner-badge-top *,
+#header-status-text {
+  color: #4a2c3d !important;
+  text-shadow: none !important;
+}
