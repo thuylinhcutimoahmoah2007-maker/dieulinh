@@ -2727,3 +2727,24 @@ div[class*="player"] * {
   color: #4a2c3d !important;
   text-shadow: none !important;
 }
+/* ===== Nút Donate hồng đậm, chữ rõ ===== */
+.social-pill.highlight {
+  background: rgba(255, 150, 190, 0.55) !important;
+  border: 1px solid rgba(255, 120, 170, 0.7) !important;
+  box-shadow: 0 4px 14px rgba(255, 120, 170, 0.3) !important;
+}
+
+.social-pill.highlight,
+.social-pill.highlight *,
+.social-pill.highlight span,
+.social-pill.highlight i {
+  color: #7a1f4a !important;
+  text-shadow: none !important;
+}
+
+/* ===== Dòng @thieuvangbonganh ===== */
+.user-handle,
+#user-handle {
+  color: #c2185b !important;
+  text-shadow: none !important;
+}
