@@ -2765,3 +2765,16 @@ div[class*="player"] * {
   color: #4a2c3d !important;
   text-shadow: none !important;
 }
+/* Khung ngoài của toast: trong suốt, không viền, không bóng */
+[class*="toast"]:has([class*="toast"]),
+[id*="toast"]:has([class*="toast"]),
+[class*="toast-container"],
+[id*="toast-container"],
+[class*="toast-wrap"],
+[id*="toast-wrap"] {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
