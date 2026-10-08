@@ -2618,3 +2618,12 @@ div[class*="player"] * {
   border-color: rgba(255, 120, 170, 0.6) !important;
   box-shadow: none !important;
 }
+/* Lớp phủ tối ở đáy banner -> hồng nhạt */
+.banner-gradient {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 214, 232, 0) 0%,
+    rgba(255, 214, 232, 0.35) 55%,
+    rgba(255, 214, 232, 0.9) 100%
+  ) !important;
+}
