@@ -54,9 +54,9 @@ const CONFIG = {
             inviteUrl: "https://discord.gg/hB4jVUtxs",
             icon: "https://cdn.discordapp.com/icons/1267096791443312734/cd3ef9fd53d343c4c735e0640a6fb9c9.png?size=256",
             // Server này chưa có banner riêng nên dùng ảnh local làm ảnh nền dự phòng
-            banner: "profile_banner_cyber.webp",
+            banner: "banner-hong.jpg",
             cdnIcon: "https://cdn.discordapp.com/icons/1267096791443312734/cd3ef9fd53d343c4c735e0640a6fb9c9.png?size=256",
-            cdnBanner: "profile_banner_cyber.webp",
+            cdnBanner: "banner-hong.jpg",
             members: "1 Members",
             online: "1 Online",
             tag: "Yêu",
