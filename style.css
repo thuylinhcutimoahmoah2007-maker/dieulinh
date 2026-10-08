@@ -6,20 +6,20 @@
 :root {
     --bg-black: #ffd6e8;
     --bg-darker: #ffc2dc;
-    --bg-card: rgba(14, 14, 17, 0.86);
-    --bg-card-hover: rgba(20, 20, 25, 0.94);
-    --bg-subtle: rgba(255, 255, 255, 0.035);
-    --bg-subtle-hover: rgba(255, 255, 255, 0.08);
+    --bg-card: rgba(255, 255, 255, 0.88);
+    --bg-card-hover: rgba(255, 255, 255, 0.96);
+    --bg-subtle: rgba(255, 150, 190, 0.12);
+    --bg-subtle-hover: rgba(255, 150, 190, 0.22);
 
-    --border-dim: rgba(255, 255, 255, 0.08);
-    --border-mid: rgba(255, 255, 255, 0.18);
-    --border-glow: rgba(255, 255, 255, 0.4);
+    --border-dim: rgba(255, 150, 190, 0.28);
+    --border-mid: rgba(255, 150, 190, 0.45);
+    --border-glow: rgba(255, 120, 170, 0.6);
 
-    --text-white: #ffffff;
-    --text-primary: #f4f4f5;
-    --text-secondary: #a1a1aa;
-    --text-muted: #71717a;
-    --text-dim: #52525b;
+    --text-white: #3b2433;
+    --text-primary: #4a2c3d;
+    --text-secondary: #7a5568;
+    --text-muted: #9a7a8a;
+    --text-dim: #b99aa9;
 
     --status-online: #22c55e;
     --status-idle: #eab308;
