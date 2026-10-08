@@ -2594,3 +2594,27 @@ div[class*="music"] *,
 div[class*="player"] * {
     color: #000000 !important; /* Màu đen tuyền */
 }
+/* ===== Thanh footer hồng nhạt ===== */
+.card-footer {
+  background: rgba(255, 214, 232, 0.9) !important;
+  border-top: 1px solid rgba(255, 150, 190, 0.4) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6) !important;
+}
+
+.card-footer,
+.card-footer * {
+  color: #4a2c3d !important;
+}
+
+/* Các ô nhỏ (giờ, ping...) */
+.footer-capsule {
+  background: rgba(255, 255, 255, 0.55) !important;
+  border: 1px solid rgba(255, 150, 190, 0.4) !important;
+  box-shadow: none !important;
+}
+
+.footer-capsule:hover {
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-color: rgba(255, 120, 170, 0.6) !important;
+  box-shadow: none !important;
+}
