@@ -2092,20 +2092,3 @@ function playBeepSound(freq = 520, duration = 0.08) {
           document.body.appendChild(b);
       }
   })();
-/* ===== Thông báo toast hồng nhạt ===== */
-[class*="toast"],
-[id*="toast"] {
-  background: rgba(255, 214, 232, 0.92) !important;
-  border: 1px solid rgba(255, 150, 190, 0.55) !important;
-  box-shadow: 0 6px 24px rgba(255, 120, 170, 0.3) !important;
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-}
-
-[class*="toast"],
-[class*="toast"] *,
-[id*="toast"],
-[id*="toast"] * {
-  color: #4a2c3d !important;
-  text-shadow: none !important;
-}
