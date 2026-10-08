@@ -97,28 +97,28 @@ const CONFIG = {
         playlist: [
             {
                 title: "Không Yêu Xin Đừng Nói",
-                artist: "Diệu Linh",
+                artist: "Của Em",
                 url: "khong-yeu-xin-dung-noi.mp3"
             },
             {
                 title: "Mưa Đợi Chờ",
-                artist: "Diệu Linh",
+                artist: "Của Em",
                 url: "bai1.mp3"
             },
             {
                 title: "Trái Tim Em Cũng Biết Đau x Yêu Kiều",
-                artist: "Diệu Linh",
+                artist: "Của Em",
                 url: "trai-tim-em-cung-biet-dau-x-yeu-kieu.mp3"
             },
             {
                 title: "Ai Ngoài Anh",
-                artist: "Diệu Linh",
+                artist: "Của Em",
                 url: "ai-ngoai-anh.mp3"
             }
         ],
         // Default / Initial Track Fallback
         title: "Không Yêu Xin Đừng Nói",
-        artist: "Diệu Linh",
+        artist: "Của Em",
         url: "khong-yeu-xin-dung-noi.mp3"
     },
 
