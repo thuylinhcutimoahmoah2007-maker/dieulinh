@@ -2581,9 +2581,9 @@ html::after {
 #music-player,
 div[class*="music"],
 div[class*="player"] {
-    background-color: rgba(255, 255, 255, 0.95) !important; /* Nền màu trắng */
-    border: 1px solid #ffffff !important;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+    background-color: rgba(255, 214, 232, 0.92) !important; /* Nền màu trắng */
+    border: 1px solid rgba(255, 150, 190, 0.5) !important;
+    box-shadow: 0 6px 24px rgba(255, 120, 170, 0.3) !important;
 }
 
 /* Đổi toàn bộ chữ và icon nút bấm sang màu đen tuyền */
@@ -2592,7 +2592,7 @@ div[class*="player"] {
 #music-player *,
 div[class*="music"] *,
 div[class*="player"] * {
-    color: #000000 !important; /* Màu đen tuyền */
+    color: #4a2c3d !important; /* Màu đen tuyền */
 }
 /* ===== Thanh footer hồng nhạt ===== */
 .card-footer {
