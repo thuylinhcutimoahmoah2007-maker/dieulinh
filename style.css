@@ -2698,3 +2698,17 @@ div[class*="player"] * {
     inset 0 1px 0 rgba(255, 255, 255, 0.6) !important;
   filter: none !important;
 }
+/* Ẩn tia quét ngang trên banner */
+.scanline,
+.scan-line,
+.scanner,
+.card-scanline,
+.card-scan,
+.laser,
+.laser-line,
+.banner-scan,
+.banner-scanline,
+.card-banner .scan,
+.card-banner::after {
+  display: none !important;
+}
