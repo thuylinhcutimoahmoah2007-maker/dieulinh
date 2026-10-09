@@ -2778,3 +2778,11 @@ div[class*="player"] * {
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
 }
+/* Ẩn các lớp hiệu ứng gây hình vuông lỗi */
+[class*="bokeh"],
+[class*="glow-orb"],
+[class*="flare"],
+[class*="light-ray"],
+[class*="lens"] {
+  display: none !important;
+}
