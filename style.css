@@ -2821,4 +2821,17 @@ div[class*="player"] * {
   opacity: 1 !important;
   font-weight: 500 !important;
 }
+/* ===== Ô quote hồng nhạt ===== */
+.quote-box {
+  background: rgba(255, 235, 244, 0.75) !important;
+  border: 1px solid rgba(255, 170, 205, 0.45) !important;
+  box-shadow: none !important;
+}
+
+.quote-box,
+.quote-box *,
+.quote-box i {
+  color: #5a3548 !important;
+  text-shadow: none !important;
+}
 
