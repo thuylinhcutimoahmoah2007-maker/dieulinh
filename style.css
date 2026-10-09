@@ -2786,3 +2786,10 @@ div[class*="player"] * {
 [class*="lens"] {
   display: none !important;
 }
+/* Tắt đốm sáng chuột và ánh phản chiếu gây hình vuông */
+#mouse-spotlight,
+#card-glare,
+.card-glare {
+  display: none !important;
+}
+
